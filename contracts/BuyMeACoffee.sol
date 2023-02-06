@@ -42,7 +42,7 @@ contract BuyMeACoffee {
     }
 
 
-    function withDrawTips() public {
+    function withdrawTips() public {
     require(owner.send(address(this).balance));        
 
     }
